@@ -1,0 +1,26 @@
+CENTRO ARGENTINO DE OFICIOS — BOCETO FINAL PARA REVISIÓN
+
+Cómo verlo:
+1. Descomprimí el ZIP en una carpeta.
+2. Abrí index.html con Chrome, Firefox o Edge.
+3. Para probar videos, búsqueda y filtros, abrí la página desde el navegador. No requiere instalar programas.
+
+Incluye:
+- Diseño adaptable a celulares y computadoras, en negro y dorado.
+- Logo del Centro Argentino de Oficios.
+- Catálogo de 25 propuestas regulares, con búsqueda y filtros por área.
+- Sección de cursos intensivos, incluida Micropigmentación de Cejas y Labios.
+- Fotos del establecimiento y video de presentación.
+- Sección de Bachiller con video y la información indicada por el instituto.
+- Contacto por WhatsApp general: +54 9 11 7606-8862.
+- Consultas de grupos y Bachiller: +54 9 11 3771-5828.
+- Dirección: Av. Meeks 429, Lomas de Zamora, Buenos Aires.
+
+ANTES DE PUBLICAR:
+- Confirmar la vigencia de las fechas de inicio (se muestran como fechas informadas, sin año).
+- Revisar que todos los horarios, duraciones y certificaciones sigan vigentes.
+- Confirmar texto final de Bachiller con el instituto. Los requisitos no se publican porque se brindan en consulta.
+- Verificar que los teléfonos y enlaces de WhatsApp sean correctos.
+- Este paquete incluye videos comprimidos para web. Conservá los originales por separado.
+
+Nota: la página es estática (HTML, CSS y JavaScript), no usa Java. Los enlaces a Google Fonts requieren conexión a internet; el resto de los archivos está incluido en el ZIP.

@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#111111">
+  <title>Centro Argentino de Oficios | Capacitate para tu futuro</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="topbar">
+    <a class="brand" href="#inicio" aria-label="Centro Argentino de Oficios, inicio">
+      <img src="logo-centro-argentino.jpg" alt="Logo del Centro Argentino de Oficios" onerror="this.style.display='none'">
+      <span class="brand-text"><strong>CENTRO ARGENTINO</strong><small>DE OFICIOS</small></span>
+    </a>
+    <button class="menu-toggle" id="menuToggle" aria-label="Abrir menú" aria-expanded="false">☰</button>
+    <nav id="mainNav">
+      <a href="#cursos">Cursos</a>
+      <a href="#conocenos">El centro</a>
+      <a href="#intensivos">Intensivos</a>
+      <a href="#bachiller">Bachiller</a>
+      <a href="#grupos">Grupos</a>
+      <a href="#contacto">Contacto</a>
+    </nav>
+    <a class="nav-cta" href="https://wa.me/5491176068862?text=Hola%2C%20quisiera%20informaci%C3%B3n%20sobre%20los%20cursos." target="_blank" rel="noopener">Consultar ↗</a>
+  </header>
+
+  <main>
+    <section class="hero" id="inicio">
+      <div class="hero-copy">
+        <span class="eyebrow"><i></i> CAPACITATE · FORMATE · CRECÉ</span>
+        <h1>Aprendé un oficio.<br><em>Construí tu futuro.</em></h1>
+        <p>Conocé nuestras capacitaciones y encontrá una propuesta para dar tu próximo paso laboral.</p>
+        <div class="hero-actions">
+          <a class="btn gold" href="#cursos">Explorar cursos <span>↓</span></a>
+          <a class="btn outline" href="#intensivos">Ver intensivos</a>
+        </div>
+        <div class="hero-note"><span class="spark">✦</span> Opciones presenciales, virtuales e intensivas</div>
+      </div>
+      <div class="hero-visual">
+        <div class="visual-glow"></div>
+        <div class="hero-logo-wrap"><img src="logo-centro-argentino.jpg" alt="Centro Argentino de Oficios"></div>
+        <div class="floating-chip chip-one"><span>✦</span> Formación práctica</div>
+        <div class="floating-chip chip-two"><span>↗</span> Nuevas oportunidades</div>
+      </div>
+    </section>
+
+    <section class="trust-strip">
+      <div><span class="strip-icon">⌖</span><span><strong>Estamos en Lomas de Zamora</strong><small>Av. Meeks 429</small></span></div>
+      <div><span class="strip-icon">▦</span><span><strong>Distintas áreas de formación</strong><small>Salud, oficios, belleza e informática</small></span></div>
+      <div><span class="strip-icon">↗</span><span><strong>Consultá por WhatsApp</strong><small>Te orientamos sobre cada curso</small></span></div>
+    </section>
+
+    <section class="section courses-section" id="cursos">
+      <div class="section-heading">
+        <div><span class="eyebrow">OFERTA ACADÉMICA</span><h2>Encontrá tu próximo <em>curso</em></h2></div>
+        <p>Explorá las propuestas y consultá por horarios, próximas fechas de inicio y certificaciones.</p>
+      </div>
+      <div class="search-row">
+        <label class="search-box"><span>⌕</span><input id="courseSearch" type="search" placeholder="Buscar un curso..." aria-label="Buscar un curso"></label>
+        <div class="filters" id="filters">
+          <button class="filter active" data-filter="Todos">Todos</button>
+          <button class="filter" data-filter="Salud">Salud</button>
+          <button class="filter" data-filter="Oficios">Oficios</button>
+          <button class="filter" data-filter="Belleza">Belleza</button>
+          <button class="filter" data-filter="Informática">Informática</button>
+        </div>
+      </div>
+      <div class="catalogue-note"><span>✦</span> La información de fechas de inicio se confirma por WhatsApp para mantenerla actualizada.</div>
+      <div class="course-grid" id="courseGrid"></div>
+      <div class="center-action"><a class="btn dark" href="https://wa.me/5491176068862?text=Hola%2C%20quisiera%20recibir%20el%20cat%C3%A1logo%20completo%20de%20cursos." target="_blank" rel="noopener">Consultar por todos los cursos ↗</a></div>
+    </section>
+
+    <section class="intensive-section" id="intensivos">
+      <div class="section-heading">
+        <div><span class="eyebrow">FORMACIONES DE MENOR DURACIÓN</span><h2>Cursos <em>intensivos</em></h2></div>
+        <p>Capacitaciones enfocadas en técnicas y conocimientos específicos.</p>
+      </div>
+      <div class="intensive-grid" id="intensiveGrid"></div>
+      <div class="certification-note"><span class="note-icon">✦</span><div><strong>Certificaciones y matrícula</strong><p>Cada certificación tiene un costo adicional que varía según la entidad. En las certificaciones CAIM de Refrigeración y Aire Acondicionado y Aire Acondicionado Intensivo, el costo incluye la matrícula de instalador. En Extraccionista de Laboratorio, la certificación AATALAC incluye el carnet RUDEA. Consultá valores y condiciones por WhatsApp.</p></div></div>
+    </section>
+
+    <section class="section place-section" id="conocenos">
+      <div class="section-heading"><div><span class="eyebrow">CONOCÉ NUESTRO ESPACIO</span><h2>Un lugar para <em>aprender</em></h2></div><p>Conocé el Centro Argentino de Oficios a través de imágenes del establecimiento.</p></div>
+      <div class="photo-grid">
+        <img src="assets/fotos/centro-01.jpeg" alt="Instalaciones del Centro Argentino de Oficios" loading="lazy">
+        <img src="assets/fotos/centro-04.jpeg" alt="Espacio de formación del instituto" loading="lazy">
+        <img src="assets/fotos/centro-07.jpeg" alt="Interior del Centro Argentino de Oficios" loading="lazy">
+        <img src="assets/fotos/centro-10.jpeg" alt="Ambiente del establecimiento" loading="lazy">
+      </div>
+      <div class="video-feature"><div><span class="eyebrow">RECORRÉ EL CENTRO</span><h3>Conocé nuestras instalaciones</h3><p>Un vistazo al espacio donde se desarrollan las propuestas de formación.</p></div><video controls preload="metadata" playsinline poster="assets/fotos/centro-01.jpeg"><source src="assets/videos/presentacion.mp4" type="video/mp4">Tu navegador no puede reproducir este video.</video></div>
+    </section>
+
+    <section class="group-section" id="grupos">
+      <div class="group-art"><div class="group-orbit orbit-a"></div><div class="group-orbit orbit-b"></div><div class="group-symbol">＋</div><span class="group-tag">PROPUESTAS PARA GRUPOS</span></div>
+      <div class="group-copy"><span class="eyebrow">EMPRESAS · INSTITUCIONES · ORGANIZACIONES</span><h2>¿Quieren capacitarse <em>en grupo?</em></h2><p>Si son 5 personas o más, consulten por propuestas especiales para grupos.</p><ul><li>Descuentos y bonificaciones</li><li>Alternativas según la capacitación</li><li>Posibilidad de acceder a becas totales</li></ul><p class="fine-print">Los beneficios están sujetos a consulta y disponibilidad; no son automáticos ni están garantizados.</p><a class="btn gold" href="https://wa.me/5491137715828?text=Hola%2C%20quisiera%20consultar%20por%20capacitaciones%20para%20un%20grupo%20de%205%20personas%20o%20m%C3%A1s." target="_blank" rel="noopener">Consultar por grupos ↗</a></div>
+    </section>
+
+    <section class="secondary-section" id="bachiller">
+      <div class="secondary-copy"><span class="eyebrow">FINALIZACIÓN DE ESTUDIOS</span><h2>Tu secundario, <em>un nuevo comienzo</em></h2><p>Una propuesta para quienes quieren retomar y completar sus estudios secundarios. Consultá por la modalidad y recibí orientación personalizada.</p><div class="bachiller-points"><span>✓ Modalidad acelerada, según la información del programa</span><span>✓ Material de estudio en PDF por materia</span><span>✓ Exámenes y acompañamiento informativo durante el proceso</span><span>✓ Título con validez nacional, emitido por el Ministerio de Educación</span></div><a class="btn dark" href="https://wa.me/5491137715828?text=Hola%2C%20quisiera%20informaci%C3%B3n%20sobre%20la%20finalizaci%C3%B3n%20de%20estudios%20secundarios." target="_blank" rel="noopener">Consultar por Bachiller ↗</a><p class="fine-print">Los requisitos y detalles de inscripción se informan personalmente por WhatsApp.</p></div>
+      <div class="bachiller-video"><video controls preload="metadata" playsinline poster="assets/fotos/centro-02.jpeg"><source src="assets/videos/bachiller.mp4" type="video/mp4">Tu navegador no puede reproducir este video.</video><small>Conocé la propuesta en este video informativo.</small></div>
+    </section>
+
+    <section class="contact-section" id="contacto">
+      <span class="eyebrow">ESTAMOS PARA ASESORARTE</span>
+      <h2>¿Tenés dudas? <em>Hablemos.</em></h2>
+      <p>Consultá por duración, horarios, próximas fechas de inicio y certificaciones disponibles.</p>
+      <a class="btn gold" href="https://wa.me/5491176068862?text=Hola%2C%20quisiera%20asesoramiento%20sobre%20los%20cursos." target="_blank" rel="noopener">Escribir por WhatsApp ↗</a>
+      <div class="address-card"><span class="pin">⌖</span><div><strong>Centro Argentino de Oficios</strong><span>Av. Meeks 429, Lomas de Zamora, Buenos Aires</span></div><a href="https://www.google.com/maps/search/?api=1&query=Av.+Meeks+429%2C+Lomas+de+Zamora" target="_blank" rel="noopener">Cómo llegar ↗</a></div>
+    </section>
+  </main>
+
+  <footer><a class="footer-brand" href="#inicio">CENTRO ARGENTINO <span>DE OFICIOS</span></a><p>Capacitación para nuevas oportunidades.</p><small>Prototipo de presentación · Información sujeta a confirmación por WhatsApp.</small></footer>
+  <script src="script.js"></script>
+</body>
+</html>
